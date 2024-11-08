@@ -4,6 +4,6 @@ public class Practice11_02 {
         do {
             System.out.println("一回のみの表示です");
             
-        } while(flgDo = false);
+        } while(flgDo);
     }  
 }
