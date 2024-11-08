@@ -16,7 +16,7 @@ public class Practice11_04 {
                     System.out.println();
                 }
                 break;
-            }else {
+            } else {
                 System.out.println("1～5の数値を入力してください");
             }
         } 
