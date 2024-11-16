@@ -1,8 +1,10 @@
 public class Practice12_02 {
     static public void main(String[] ages){
 
-        String greet = greetings("朝");
-        System.out.println(greetings(greet));
+        String greet;
+
+        greet = greetings("朝");
+        System.out.println(greet);
 
         greet = greetings("昼");
         System.out.println(greet);
