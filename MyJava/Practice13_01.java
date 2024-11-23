@@ -12,7 +12,6 @@ public void cryAnimals(){
         }
     );
 }
-
 }
 
 public class Practice13_01 {
