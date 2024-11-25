@@ -1,9 +1,3 @@
-class Array{
-
-
-}
-
-
 public class Practice14_01 {
     public static void main(String[] agrs){
         try{
