@@ -10,7 +10,6 @@ public class Practice14_01 {
         } finally {
             System.out.println("finallyブロックです。");
         }
-
+        
         }
-
     }

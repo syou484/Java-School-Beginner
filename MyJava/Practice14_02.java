@@ -20,7 +20,7 @@ public class Practice14_02 {
         
         //System.out.println(i);
         
-        if(i == 0){
+        if (i == 0){
             i = 10/0;
         } else {
             String x = null;
