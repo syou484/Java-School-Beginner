@@ -20,12 +20,9 @@ public class ComprehensiveIntermediate01_01 {
                 break;
             }
          
-
     } catch (InputMismatchException e) {
         System.out.println("整数以外です");
     }
-
-
     }
     }
 }
