@@ -1,7 +1,19 @@
 class Greeting{
     String country;
     String greet;
-    
+
+    public String greet(String c){
+        if (c == "日本"){
+            c = "こんにちは";
+        } else if (c == "韓国"){
+            c = "アンニョンハセヨ";
+        } else if (c == "その他"){
+            c = "わかりません";
+        }
+        return c;
+
+    }
+
 }
 
 public class Practice13_03 {
