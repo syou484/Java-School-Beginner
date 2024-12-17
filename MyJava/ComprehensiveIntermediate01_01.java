@@ -19,6 +19,7 @@ public class ComprehensiveIntermediate01_01 {
                 System.out.println("odd");  //奇数
                 break;
             }
+            break;
          
     } catch (InputMismatchException e) {
         System.out.println("整数以外です");
