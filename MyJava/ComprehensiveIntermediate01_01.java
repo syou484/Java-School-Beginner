@@ -6,7 +6,7 @@ public class ComprehensiveIntermediate01_01 {
 
         while(true){
             System.out.println("整数を入力してください");
-        Scanner sc = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
 
         try{
             int i = sc.nextInt();
