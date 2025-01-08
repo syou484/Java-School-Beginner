@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.HashMap;
 
-public class ComprehensiveIntermediate02_02 {
+public class MenuManager{
     HashMap<String,ArrayList> map = new HashMap<>();
 
     MenuManager(){
@@ -39,16 +39,18 @@ public class ComprehensiveIntermediate02_02 {
     }
     public void setMenu(String b,String c){
         if(b == "sandwitch"){
+            List<String> list = (List<String>) map.get("sandwitch");
+            list.add(c);
+            map.put("sandwitch",list);
 
         }
-        System.out.println();
 
     }
     public void searchMenu(){
         System.out.println();
 
     }
-    
+
 }
 
 public static void main(String[] args){
@@ -60,7 +62,7 @@ public static void main(String[] args){
 
     manager.showMenu("sandwitch");
 
-    manager.searchMenu("ホットミルク");
+    //manager.searchMenu("ホットミルク");
 
-    manager.searchMenu("オレンジジュース");
+    //manager.searchMenu("オレンジジュース");
 }
